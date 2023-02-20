@@ -1,0 +1,6 @@
+<div class="toDos">
+    <div class="task" *ngFor ="let task of assignments">
+        <div class="content"><p>{{task.taskDesc}}</p></div>
+        <a class="btn" (click)="service.DeleteTask(task.id)" (click)="service.GetTasks()" href="">Delete</a>
+    </div>
+</div>

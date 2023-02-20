@@ -1,0 +1,58 @@
+.toDos{
+    display: grid;
+    min-height: 70vh;
+}
+.task{
+    display: grid;
+    grid-template-areas: 
+    "idNum  content   btn";
+    grid-template-columns: 4fr 1fr;
+    height: 20vh;
+    background-color: #586c91;
+    margin: 0 10vh;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 2vh;
+    
+}
+.task:hover{
+    background-color: #283347;
+}
+.taskTitle, .content, .idNum{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    
+}
+.idNum{
+    margin-left: 10px;
+    font-size: 50px;
+}
+.taskTitle{
+    font-size: 35px;
+    color: #f4f7fc;
+}
+.content{
+    overflow-wrap: break-word;
+    margin: 0 10px;
+}
+.btn{
+    background-color: #283347;
+    border: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
+    color: initial;
+    text-align: center;
+    line-height: 20vh;
+}
+.btn:hover{
+    background-color: #586c91;
+    transition: 0.2s;
+    color: #f4f7fc;
+}
+p{
+    display: block;
+}

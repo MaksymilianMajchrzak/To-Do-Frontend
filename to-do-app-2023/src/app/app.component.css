@@ -1,0 +1,51 @@
+header{
+    display: block;
+    text-align: center;
+    height: 10vh;
+    background-color: #283347;
+    margin-bottom: 5vh;
+    
+}
+h1{
+    padding-top: 2vh;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #dfe7f2;
+}
+#createTask{
+    width: 70%;
+    margin: 0 5%;
+    margin-bottom: 5vh;
+    height: 5vh;
+    border: #283347 5px solid;
+    background-color: #dfe7f2;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#createTask:focus{
+    border:  5px solid;;
+    background-color: #283347;
+    outline: none;
+    color: #dfe7f2;
+}
+.container{
+    display: flex;
+}
+.inputBtn{
+    height: 5vh;
+    width: 15%;
+    font-size: 30px;
+    border: none;
+    /* border:  #dfe7f2 5px solid; */
+    background-color: #283347;
+    border-radius: 10px;
+    text-decoration: none;
+    color: initial;
+    text-align: center;
+    line-height: 5vh;
+}
+.inputBtn:hover{
+    background-color: #586c91;
+    transition: 0.2s;
+    color: #f4f7fc;
+}
